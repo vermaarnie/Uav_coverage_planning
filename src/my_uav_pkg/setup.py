@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "uav = my_uav_pkg.uav_placer:main"
+            "uav_c = my_uav_pkg.uav_client:main",
+            "uav_s = my_uav_pkg.uav_server:main"
         ],
     },
 )
